@@ -27,6 +27,6 @@ for entry in data:
 			print "can't process input %s" % count
 			result = "?"
 			break
-	fileOutput.write(result+'\n')
+	fileOutput.write(result+'\n')
 	print ("entry%s = %s" % (count, result))
 fileOutput.write("Done")

@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/arvindk/projects/DecisionTree/src')
+sys.path.append('E:\infinity\gitrepo\testbots\decisionTree\src')
 import DecisionTree
 
 def main():
@@ -21,7 +21,7 @@ def main():
     data.remove(attributes)
     #Run ID3
     tree = DecisionTree.makeTree(data, attributes, target, 0)
-    print "generated decision tree"
+    print( "generated decision tree")
     #Generate program
     file = open('program.py', 'w')
     
@@ -68,7 +68,7 @@ def main():
     #print solutions 
     file.write("\tprint (\"entry%s = %s\" % (count, result))\n")
     file.write("fileOutput.write(\"Done\")\n")
-    print "written program"
+    print ("written program")
     
     
 if __name__ == '__main__':

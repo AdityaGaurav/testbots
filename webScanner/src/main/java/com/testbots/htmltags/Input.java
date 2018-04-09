@@ -1,4 +1,4 @@
-package com.testbots.tags;
+package com.testbots.htmltags;
 
 public class Input {
 

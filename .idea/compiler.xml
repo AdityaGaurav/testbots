@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="decisionTree" target="1.5" />
-      <module name="TestBots" target="1.5" />
-      <module name="webScanner" target="1.5" />
+      <module name="decisionTree" target="1.8" />
+      <module name="TestBots" target="1.8" />
+      <module name="webScanner" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
